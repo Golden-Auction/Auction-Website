@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Items</title>
+</head>
+<link rel="stylesheet" href="./sellItems.css">
+<style>
+    .trustedItems{
+        width: 100%;
+    }
+</style>
+<!-- <link rel="stylesheet" href="./sellItemContainer.css"> -->
+<body>
+    <div class="sellItems-title">
+        <h2>
+            <p >
+             Find exactly what you're looking for in 
+            </p>
+            <p>
+             our extensive range of categories
+            </p>
+         </h2>
+    </div>
+    <section class="product-row">
+        <section >
+            <div class="img-cont1">
+              
+            </div>
+            
+            <div class="txt-cont">
+                 <div>
+                     <p class="txt"><strong>Brand : </strong>Mekina</pre>
+                     <p class="txt"><strong>Type : </strong>New</pre>
+                     <p class="txt"><strong>Price : </strong>234</pre>
+                     <p class="txt"><strong>Location : </strong>Addid</pre>
+                 </div>
+                 <div>
+                    <button class="status-button">
+                        Live Now!
+                    </button>
+                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="img-cont1">
+              
+            </div>
+            
+            <div class="txt-cont">
+                 <div>
+                     <p class="txt"><strong>Brand : </strong>Mekina</pre>
+                     <p class="txt"><strong>Type : </strong>New</pre>
+                     <p class="txt"><strong>Price : </strong>234</pre>
+                     <p class="txt"><strong>Location : </strong>Addid</pre>
+                 </div>
+                 <div>
+                    <button class="status-button">
+                       Sold!
+                    </button>
+                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="img-cont1">
+              
+            </div>
+            
+            <div class="txt-cont">
+                 <div>
+                     <p class="txt"><strong>Brand : </strong>Mekina</pre>
+                     <p class="txt"><strong>Type : </strong>New</pre>
+                     <p class="txt"><strong>Price : </strong>234</pre>
+                     <p class="txt"><strong>Location : </strong>Addid</pre>
+                 </div>
+                 <div>
+                    <button class="status-button">
+                        Live Now!
+                    </button>
+                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="img-cont1">
+              
+            </div>
+            
+            <div class="txt-cont">
+                 <div>
+                     <p class="txt"><strong>Brand : </strong>Mekina</pre>
+                     <p class="txt"><strong>Type : </strong>New</pre>
+                     <p class="txt"><strong>Price : </strong>234</pre>
+                     <p class="txt"><strong>Location : </strong>Addid</pre>
+                 </div>
+                 <div>
+                    <button class="status-button">
+                        Sold!
+                    </button>
+                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="img-cont1">
+              
+            </div>
+            
+            <div class="txt-cont">
+                 <div>
+                     <p class="txt"><strong>Brand : </strong>Mekina</pre>
+                     <p class="txt"><strong>Type : </strong>New</pre>
+                     <p class="txt"><strong>Price : </strong>234</pre>
+                     <p class="txt"><strong>Location : </strong>Addid</pre>
+                 </div>
+                 <div>
+                    <button class="status-button">
+                        Live Now!
+                    </button>
+                 </div>
+            </div>
+        </section>
+    </section>
+    <div class="trustedItems">
+        <iframe 
+            class="trustedItems"
+            id="trustedItemsFrame" 
+            src="./trustedCompanys.html" 
+            frameborder="0" 
+            scrolling="no">
+        </iframe>
+    </div>
+
+    <script>
+        // Dynamically adjust iframe height based on its content
+        const iframe = document.getElementById("trustedItemsFrame");
+
+        iframe.addEventListener("load", () => {
+            // Get the height of the content inside the iframe
+            const iframeContent = iframe.contentWindow.document.body.scrollHeight;
+
+            // Set iframe's height to match the content
+            iframe.style.height = iframeContent + "px";
+        });
+    </script>
+
+    
+</body>
+</html>

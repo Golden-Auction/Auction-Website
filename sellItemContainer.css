@@ -1,0 +1,58 @@
+/* Parent container: Flexbox for column layout */
+body {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align content horizontally */
+    background-color: #333; /* Optional: Dark background */
+    min-height: 100vh; /* Full height for proper alignment */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+/* Image container */
+.img-cont1 {
+    height: 200px; /* Adjust size as needed */
+    width: 200px; 
+    background-image: url("./assets/images/home-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Make the image cover the entire container */
+    border: 1px solid #fff; /* Optional: Add border for better visibility */
+    margin-bottom: 20px; /* Add spacing between image and text container */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+/* Text container */
+.txt-cont {
+    display: flex;
+    flex-direction: column; /* Stack text items vertically */
+    justify-content: center; /* Center the text items vertically */
+    align-items: flex-start; /* Align text to the left */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    color: white; /* Text color */
+    width: 300px; /* Adjust width as needed */
+}
+
+/* 1000538805983 */
+/* 184829746 */
+
+.txt {
+    margin: 5px 0;
+    font-size: 14px; /* Adjust font size */
+}
+
+.status-button {
+    border-radius: 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #4caf50; /* Green button */
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.status-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

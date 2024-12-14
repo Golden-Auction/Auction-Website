@@ -1,0 +1,27 @@
+div h2 p{
+    color: white;
+}
+.txt-cont p{
+    color: white;
+    display: block;
+}
+.txt-cont div{
+  text-align: center;
+  margin: auto;
+  height: 50px;
+}
+.start-now-button{
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 7px;
+  background-color: gold;
+}
+.start-now{
+  display: flex;
+  justify-content: center;
+}
+.servicesItems{
+  width: 100%;
+}

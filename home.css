@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-image: url("./assets/images/home-background.jpg"); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-txt{
+    margin-top: 150px;
+    text-align: center;
+}
+p{
+    margin: 5px;
+}
+.home-buttons{
+    margin-top: 100px;
+    margin-right: 20px;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+.header-txt  p{
+    font-size:40px;
+}
+@media(min-width:700px){
+    .header-txt  p{
+        font-size: 60px;
+    }
+}

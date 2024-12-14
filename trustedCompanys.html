@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trusted Companys</title>
+</head>
+<link rel="stylesheet" href="./sellItems.css">
+<link rel="stylesheet" href="./trustedCompanys.css">
+<body>
+    <section>
+        <div class="sellItems-title">
+            <h2>
+                <p >
+                    Trusted By Many companys 
+                </p>
+             </h2>
+        </div>
+        <section class="product-row">
+            <section >
+                <div class="img-cont1">
+                  
+                </div>
+                
+                <div class="txt-cont">
+                    <div>
+                        <p>
+                            Got Licence to Provide
+                         </p>
+                         <p  style="display: block;">
+                            Trusted Product
+                         </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="img-cont1">
+                  
+                </div>
+                
+                <div class="txt-cont">
+                    <div>
+                        <p>
+                            Got Licence to Provide
+                         </p>
+                         <p  style="display: block;">
+                            Trusted Product
+                         </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="img-cont1">
+                  
+                </div>
+                
+                <div class="txt-cont">
+                    <div>
+                        <p>
+                            Got Licence to Provide
+                         </p>
+                         <p  style="display: block;">
+                            Trusted Product
+                         </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="img-cont1">
+                  
+                </div>
+                
+                <div class="txt-cont">
+                    <div>
+                        <p>
+                            Got Licence to Provide
+                         </p>
+                         <p  style="display: block;">
+                            Trusted Product
+                         </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="img-cont1">
+                  
+                </div>
+                
+                <div class="txt-cont">
+                    <div>
+                        <p>
+                            Got Licence to Provide
+                         </p>
+                         <p  style="display: block;">
+                            Trusted Product
+                         </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <section>
+        <div class="sellItems-title">
+            <h2>
+                <p >
+                    Manage your bids, watchlist, and personal information
+                </p>
+             </h2>
+        </div>
+        <div class="start-now">
+            <button class="start-now-button">
+                Start Now!
+             </button>
+        </div>
+    </section>
+    <div class="servicesItems">
+        <iframe 
+            class="servicesItems"
+            id="serviceItemsFrame" 
+            src="./ourServices.html" 
+            frameborder="0" 
+            scrolling="no">
+        </iframe>
+    </div>
+
+
+    <script>
+        // Dynamically adjust iframe height based on its content
+        const services = document.getElementById("serviceItemsFrame");
+
+        services.addEventListener("load", () => {
+            // Get the height of the content inside the iframe
+            const iframeContent = services.contentWindow.document.body.scrollHeight;
+
+            // Set iframe's height to match the content
+            services.style.height = iframeContent + "px";
+        });
+    </script>
+    
+</body>
+</html>
