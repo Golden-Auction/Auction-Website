@@ -29,7 +29,7 @@
           <a class="company-name">GOLDEN AUCTION </a>
           <div class="navbar-links">
             <a href="#footer-id" class="navbar-link">Contact us</a>
-            <a href="#" class="navbar-link">About us</a>
+            <a href="#service-id" class="navbar-link">About us</a>
             <a class="navbar-link" id="navbar-signin-button" href="./signin.html">Sign In</a>
           </div>
         </div>
@@ -43,10 +43,10 @@
           <p>Your Treasure!</p>
         </h1>
         <div>
-          <button class="home-buttons">Sign In</button>
-          <button class="home-buttons" style="background-color: #ffb606">
-            Sign Up
+          <button class="home-buttons" onclick="goToSignInPage()">
+            <a href="./signin.html">Sign Up</a>
           </button>
+          <button class="home-buttons" style="background-color: #ffb606"> Sign Up </button>
         </div>
       </div>
     </Section>
@@ -258,7 +258,7 @@
     <!--our service-->
 
     
-    <section>
+    <section id="service-id">
       <div class="servicesItems-title">
         <h2>
           <p>Our Services</p>
@@ -363,27 +363,5 @@
     <section>
 
     </section>
-    <script>
-      // Dynamically adjust iframe height based on its content
-      const iframe = document.getElementById("sellItemsFrame");
-
-      iframe.addEventListener("load", () => {
-        // Get the height of the content inside the iframe
-        const iframeContent = iframe.contentWindow.document.body.scrollHeight;
-
-        // Set iframe's height to match the content
-        iframe.style.height = iframeContent + "px";
-      });
-      // Dynamically adjust iframe height based on its content
-      const services = document.getElementById("servicesItems");
-
-      services.addEventListener("load", () => {
-        // Get the height of the content inside the iframe
-        const iframeContent = services.contentWindow.document.body.scrollHeight;
-
-        // Set iframe's height to match the content
-        services.style.height = iframeContent + "px";
-      });
-    </script>
   </body>
 </html>
