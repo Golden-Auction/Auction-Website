@@ -2,6 +2,7 @@ body {
   background-color: #000;
   color: #fff;
   font-family: sans-serif;
+  margin-top: 150px;
 }
 
 .container {
@@ -75,7 +76,10 @@ button {
 .footer-redirect,
 .socials {
   flex: 1; /* This ensures the divs take equal width */
+  justify-content: space-around;
+
   margin: 10px;
+  padding: 10px;
 }
 
 .footer-redirect {
@@ -92,6 +96,7 @@ button {
   text-align: right; /* Right-aligns content in the right div */
   margin-right: 20px;
   font-size: 25px;
+  
 }
 
 .footer-company-name {

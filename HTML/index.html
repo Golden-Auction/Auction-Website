@@ -19,14 +19,24 @@
       href="https://fontawesome.com/icons/telegram?f=brands&s=solid"
     />
     <link href="../CSS/footer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </head>
+  <script defer>
+     history.scrollRestoration = "manual";
+
+      const removeAnchorFormURL = () => {
+        setTimeout(() => {
+          window.history.replaceState({}, "", window.location.href.split("#")[0]);
+        }, 100);
+      };
+  </script>
   <body>
     <!--Home screen-->
 
     <Section>
       <nav class="navbar">
         <div class="navbar-container">
-          <a class="company-name">GOLDEN AUCTION </a>
+          <a  class="company-name" onclick="removeAnchorFormURL()" href="#sec-2">GOLDEN AUCTION</a>
           <div class="navbar-links">
             <a href="#footer-id" class="navbar-link">Contact us</a>
             <a href="#service-id" class="navbar-link">About us</a>
@@ -44,10 +54,10 @@
         </h1>
         <div>
           <button class="home-buttons" onclick="goToSignInPage()">
-            <a href="./signin.html">Sign Up</a>
+            <a href="./signin.html">Sign In</a>
           </button>
           <button class="home-buttons" style="background-color: #ffb606">
-            <a href=""> Sign Up</a>
+            <a href="./signin.html"> Sign Up</a>
           </button>
         </div>
       </div>
@@ -273,7 +283,7 @@
         </div>
   
         <div class="outer-nested-cont">
-          <div class="service-cont">We Aim Decrease Corruption</div>
+          <div class="service-cont">we provide a seamless auction experience for buyers and sellers. Our user-friendly platform features a wide range of items, secure transactions, and real-time bidding updates.</div>
           <div class="service-cont">We Aim Decrease Corruption</div>
           <div class="service-cont">We Aim Decrease Corruption</div>
         </div>
@@ -357,13 +367,24 @@
             href="https://fontawesome.com/icons/telegram?f=brands&s=solid"
             target="_blank"
             class="icon"
-            ><i class="fab fa-github"></i
+            ><i class="fab fa-facebook" style="color: white;"></i
           ></a>
+          <a
+          href="https://fontawesome.com/icons/telegram?f=brands&s=solid"
+          target="_blank"
+          class="icon"
+          ><i class="fab fa-instagram" style="color: white;"></i
+        ></a>
+        <a
+        href="https://fontawesome.com/icons/telegram?f=brands&s=solid"
+        target="_blank"
+        class="icon"
+        ><i class="fab fa-github" style="color: white;"></i
+      ></a>
         </div>
       </footer>
      </section>
     <section>
-
     </section>
   </body>
 </html>
