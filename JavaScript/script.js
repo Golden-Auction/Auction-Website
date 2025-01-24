@@ -20,3 +20,14 @@ signupBtn.addEventListener('click', () => {
   signinBtn.classList.remove('active');
 });
 /*********  Sign In / Sign Up pages *********/
+
+history.scrollRestoration = "manual";
+
+const removeAnchorFormURL = () => {
+  setTimeout(() => {
+    window.history.replaceState({}, "", window.location.href.split("#")[0]);
+  }, 100);
+};
+
+
+// Start auto-scrolling when the page loads
